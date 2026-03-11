@@ -6,3 +6,22 @@ services:
     dockerfilePath: ./Dockerfile
     autoDeploy: true
     branch: main
+    envVars:
+      - key: url
+        sync: false
+      - key: uname
+        sync: false
+      - key: upass
+        sync: false
+      - key: gcpid
+        sync: false
+      - key: gcpsecret
+        sync: false
+      - key: genkey
+        sync: false
+      - key: mailkey
+        sync: false
+      - key: adzunaid
+        sync: false
+      - key: adzunakey
+        sync: false
